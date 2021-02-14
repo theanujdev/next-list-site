@@ -9,7 +9,7 @@ export default function index({ users }) {
         {users.map((user) => (
           <Link href={"/users/" + user.id} key={user.id}>
             <a className={styles.listItem}>
-              <span className={styles.bullet}>{"=>"}</span>
+              <span className={styles.bullet}>{"👉"}</span>
               {user.name}
             </a>
           </Link>

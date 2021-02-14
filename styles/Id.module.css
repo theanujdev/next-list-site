@@ -1,0 +1,35 @@
+/* for url "/users/[id]" */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+.container p {
+  margin: 20px 0;
+}
+
+.title {
+  padding: 0 20px;
+  border-left: 10px rgb(0, 151, 25) solid;
+  border-right: 10px rgb(0, 151, 25) solid;
+}
+
+.link {
+  margin-top: 5rem;
+  color: darkviolet;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+}
+.link:hover {
+  transform: scale(1.05);
+}

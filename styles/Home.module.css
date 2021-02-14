@@ -1,3 +1,5 @@
+/* for url "/" */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,11 @@
 }
 
 .container h1 {
+  color: darkred;
   font-size: 3rem;
+  padding: 0 15px;
+  border-left: 10px rgb(0, 151, 25) solid;
+  border-right: 10px rgb(0, 151, 25) solid;
 }
 
 .list {
@@ -15,18 +21,25 @@
   font-size: 2rem;
   width: fit-content;
   margin: 0 auto;
-  color: rgb(160, 53, 206);
+  color: rgb(122, 62, 148);
 }
 
 .listItem {
-  display: inline-block;
+  width: fit-content;
 }
 
 .listItem:hover {
   color: red;
+  /* font-weight: bold; */
 }
 
 .bullet {
-  color: darkorange;
+  transition: transform 0.1s ease-in-out;
+  display: inline-block;
   margin-right: 0.5rem;
+  transform: translate(-10px);
+}
+
+.listItem:hover .bullet {
+  transform: translateX(0px);
 }

@@ -1,14 +1,15 @@
 import Link from "next/link";
+import styles from "../../styles/Id.module.css";
 
 export default function Details({ user }) {
   return (
-    <div>
-      <h1>{user.name}</h1>
-      <h3>ID : {user.id}</h3>
-      <h6>{user.email}</h6>
-      <p>Campany : {user.company.name}</p>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Name : {user.name}</h1>
+      <p>ID : {user.id}</p>
+      <p>Email : {user.email}</p>
+      <p>Company : {user.company.name}</p>
       <Link href="/">
-        <a>Back to HomePage</a>
+        <a className={styles.link}>Back to HomePage</a>
       </Link>
     </div>
   );
