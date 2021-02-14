@@ -1,7 +1,20 @@
-import React from "react";
+export default function Users({ users }) {
+  return (
+    <>
+      Users
+      <ul>
+        {users.map((user) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </>
+  );
+}
 
-const index = () => {
-  return <div>USERS</div>;
+export const getStaticProps = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const users = await res.json();
+  return {
+    props: { users },
+  };
 };
-
-export default index;
