@@ -13,7 +13,7 @@ NextJS
 - Clone the project
 
 ```bash
-git clone https://github.com/ProdexOne/next-list-site.git
+git clone https://github.com/theanujdev/next-list-site.git
 ```
 
 - Go to the project directory
@@ -36,15 +36,15 @@ npm run dev
 
 ## Screenshots
 
-![Home page](https://raw.githubusercontent.com/ProdexOne/next-list-site/master/img/home.png)
+![Home page](https://raw.githubusercontent.com/theanujdev/next-list-site/master/img/home.png)
 
 ## Feedback
 
-If you have any feedback, please reach out at [@AnujS_IN](https://twitter.com/AnujS_IN)
+If you have any feedback, please reach out at [@theanujdev](https://twitter.com/theanujdev)
 
 ## Authors
 
-- [@ProdexOne](https://www.github.com/ProdexOne)
+- [@theanujdev](https://www.github.com/theanujdev)
 
 ## License
 
